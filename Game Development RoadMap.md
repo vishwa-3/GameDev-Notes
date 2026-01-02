@@ -1200,6 +1200,9 @@ Dictionary<int, EnemyData>
 - upcasting downcasting
 - Singleton
 - create object in unity?
+- build in function list for collections
+- Hashcode, collision
+- LinQ
 
 ---
 
@@ -1235,21 +1238,6 @@ Know they exist. Don’t spend time mastering.
 
 ---
 
-## LEVEL C4 — COLLECTIONS (EVERY GAME USES THIS)
-
-- Arrays (`T[]`)
-- `List<T>`
-- `Dictionary<TKey, TValue>`
-- `HashSet<T>`
-- `Queue<T>`
-- `Stack<T>`
-- `IEnumerable<T>`
-- `ICollection<T>`
-- `IList<T>`
-- `IDictionary<TKey, TValue>`
-
----
-
 ## LEVEL C5 — DELEGATES, EVENTS & ACTIONS (CORE UNITY PATTERN)
 
 ### Concepts
@@ -1258,13 +1246,6 @@ Know they exist. Don’t spend time mastering.
 - `Action`
 - `Func`
 - Events
-
-### Use Cases
-
-- Health changed
-- Enemy died
-- UI updates
-- Decoupling systems
 
 ---
 
@@ -1279,12 +1260,6 @@ Know they exist. Don’t spend time mastering.
 
 - Switch-based states
 - State pattern (basic)
-
-### Use Cases
-
-- Player states
-- AI states
-- Game states
 
 ---
 
